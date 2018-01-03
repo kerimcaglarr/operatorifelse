@@ -1,0 +1,53 @@
+import UIKit
+
+var str = "Hello, playground" //Ýma yolu ile atama Xcode anlar tipi
+
+var str2:String = "test" //Açýktan atama Xcode a bildirilir tip
+
+//Karþýlaþtýrma Operatörleri ve if-else yapýsý
+
+//1 == 2 (1 2 ye eþittir)
+
+// 1 != 2 (1 2 ye eþit deðildir)
+
+// 1 < 2 ( 1 2 den küçüktür)
+
+// 1 > 2
+
+// 1 <= 2
+
+// 2 >= 1
+
+1 != 1
+
+var userName = "kerimcaglar"
+
+var password = 123456
+
+if(userName == "kerimcaglar1" || password == 123456){
+
+    print("Kullanýcý Giriþi Baþarýlý")
+
+} else if userName == "kerimcaglar2" {
+
+    print("Þifre alanýný boþ geçmeyin")
+
+}
+
+else{
+
+    print("Girilen bilgiler yanlýþtýr")
+
+}
+
+// && ve operatörü: Tüm koþullarýn saðlanmasý gerekir
+
+// || veya operatörü ise en az birinin saðlanmasý yeterlidir
+
+//Ternary (Üçlü) ifade
+
+var test:String?
+
+var a = test != nil ? true : false // 3 lü if ternary if
+
+print(a)
